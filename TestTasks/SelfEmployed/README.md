@@ -4,8 +4,8 @@
 
 Test task for further job
 Hierarchy of README:
-1. [Task on RU](#Task RU)
-2. [Task on EN](#Task EN)
+1. [Task on RU](#TaskRU)
+2. [Task on EN](#TaskEN)
 3. [Example code](#Code)
 
 ## Task RU

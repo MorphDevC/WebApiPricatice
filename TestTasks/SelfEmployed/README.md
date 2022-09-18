@@ -21,16 +21,17 @@ Hierarchy of README:
 Метод должен быть описан в соотвествии со стандартом OpenAPI и доступен через SwaggerUI
 
 ## TaskEN
-Есть сущность RGDialogsClients. Она предназначена для хранения информации о том, какие пользователи взаимодействуют в рамках одного диалога.
-Т.е. может быть N-ое количество IDClient, объединенных одним диалогом.
-Функция Init позволяет получить набор сущностей, с которыми можно производить операции.
+There is an entity "RGDialogsClients". It is designed to store information about which users interact within the same dialog.
+Thats to say there can be N number of "IDClients" connected by one dialog.
+The "Init" function allows you to get a set of entities with which you can perform operations.
 
-Задача
+The task:
 
-Написать проект WebAPI в котором будет реализован метод API поиска диалога с теми идентификаторами клиентов, которые были переданы в метод.
-Метод должен принимать список идентификаторов клиентов для которых необходимо найти диалог. Нужно найти такой диалог, в котором есть все переданные клиенты. Если такого диалога нет, то возвращается пустой GUID.
-Если диалог найден возвращается идентификатор диалога.
-Метод должен быть описан в соотвествии со стандартом OpenAPI и доступен через SwaggerUI
+Write a WebAPI project that will implement the dialog search API method with the client IDs that were passed to the method.
+The method must accept a list of client IDs for which to find the dialog. We need to find a dialog that contains all the transferred clients. If there is no such dialog, then an empty GUID is returned.
+If the dialog is found, the ID of the dialog is returned.
+The method must be described in accordance with the OpenAPI standard and available through SwaggerUI
+
 
 ## Code
 
